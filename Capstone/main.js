@@ -28,7 +28,7 @@ con.connect(function(err) {
 		return
         }
 	})  
-  });
+  }); 
     
   con.query("SELECT * FROM weather WHERE id=6;", function (err, result, fields) {
     if (err) throw err;
