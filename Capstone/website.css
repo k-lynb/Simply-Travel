@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
 }
-
+ 
 .logo {
     width: 100px;
     cursor: pointer;
